@@ -6,7 +6,7 @@
                     <img src="../assets/logo_web.png" width="300" alt="">
                 </div>
                 <div class="row">
-                    <h4>Welcome, Please tap on button to Check-in</h4>
+                    <h5>Welcome, Please tap on button to Check-in</h5>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 mb-2">
@@ -14,7 +14,7 @@
                             Check-in</a>
                     </div>
                     <div class="col-lg-12">
-                        <a class="btn btn-danger btn-lg" href="/"> <img src="../assets/log-out.png" height="32" alt="">
+                        <a class="btn btn-danger btn-lg" href="/check-out"> <img src="../assets/log-out.png" height="32" alt="">
                             Check-out</a>
                     </div>
                 </div>
@@ -35,14 +35,14 @@
 
 <style scoped>
 body{}
-.container h4 {
+.container h5 {
     text-align: center;
     text-transform: capitalize;
 }
 
 .btn {
     border-radius: 42px;
-    padding: 17px;
+    padding: 15px;
     color: #fff;
     font-size: 28px;
 }
